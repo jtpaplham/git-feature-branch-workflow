@@ -12,6 +12,9 @@ function App() {
           <h1>About</h1>
         </Route>
       </Routes>
+      <Route path="/contact">
+        <h1>Contacts</h1>
+      </Route>
     </BrowserRouter>
   );
 }
