@@ -14,6 +14,7 @@ function App() {
       </Routes>
       <Route path="/contact">
         <h1>Contacts</h1>
+        <p>Please contact us @info.com</p>
       </Route>
     </BrowserRouter>
   );
