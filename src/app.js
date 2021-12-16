@@ -11,6 +11,9 @@ function App() {
         <Route path="/about">
           <h1>About</h1>
         </Route>
+        <Route path="*">
+          <h1>404 - Not Found</h1>
+        </Route>
       </Routes>
       <Route path="/contact">
         <h1>Contacts</h1>
