@@ -1,10 +1,18 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <main>
-      <h1>Welcome</h1>
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" exact>
+          <h1>Home</h1>
+        </Route>
+        <Route path="/about">
+          <h1>About</h1>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
